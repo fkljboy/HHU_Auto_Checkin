@@ -122,10 +122,10 @@ if __name__ == "__main__":
         print("账号和密码数量不一致\n");
         exit(1)
     #随机时间
-    if RNDTM:
-        randomTime(int(RNDTM)*60)
-    else:
-        randomTime(3600)
+    ##if RNDTM:
+       ## randomTime(int(RNDTM)*60)
+    ##else:
+       ## randomTime(3600)
     #开始打卡
     for i in range(pwd_length):
         print("**************************************\n正在给第 "+str(i+1)+" 个账号打卡")
